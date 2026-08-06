@@ -1,4 +1,4 @@
-# DFLU - Discord Fix Loop Update 🛠️
+# DFLU - Discord Fix Loop Update 
 
 ![DFLU](https://img.shields.io/badge/DFLU-Tool-cyan?style=for-the-badge)
 ![Windows](https://img.shields.io/badge/OS-Windows-blue?style=for-the-badge)
