@@ -30,7 +30,7 @@ It automatically:
 **Fast Method (One-Line Command)**
 Open Windows PowerShell (Win + R -> type `powershell` -> Enter) and paste the following command:
 ```powershell
-irm https://raw.githubusercontent.com/sirt-sirt/DFLU-Discord-Fix-Loop-Update/main/Fix-Discord.bat -outf $env:TEMP\Fix-Discord.bat; & $env:TEMP\Fix-Discord.bat
+irm https://raw.githubusercontent.com/sirt-sirt/DFLU-Discord-Fix-Loop-Update/main/run.ps1 | iex
 ```
 
 **Manual Method**
@@ -64,7 +64,7 @@ irm https://raw.githubusercontent.com/sirt-sirt/DFLU-Discord-Fix-Loop-Update/mai
 **Быстрый способ (Команда в одну строку)**
 Открой PowerShell (Win + R -> введи `powershell` -> Enter) и вставь эту команду:
 ```powershell
-irm https://raw.githubusercontent.com/sirt-sirt/DFLU-Discord-Fix-Loop-Update/main/Fix-Discord.bat -outf $env:TEMP\Fix-Discord.bat; & $env:TEMP\Fix-Discord.bat
+irm https://raw.githubusercontent.com/sirt-sirt/DFLU-Discord-Fix-Loop-Update/main/run.ps1 | iex
 ```
 
 **Ручной способ**
