@@ -1,0 +1,33 @@
+# DFLU - Discord Fix Loop Update 🛠️
+
+![DFLU](https://img.shields.io/badge/DFLU-v2.0-cyan?style=for-the-badge)
+![Windows](https://img.shields.io/badge/OS-Windows-blue?style=for-the-badge)
+
+A surgical, automated, and aesthetic CLI tool to fix the infamous "Discord Infinite Update Loop" and silent background crashes on Windows.
+
+## ⚠️ The Problem
+Sometimes, Discord downloads a corrupted update package. When `Update.exe` tries to launch it, the executable instantly crashes (exit code 1) and closes without any visible errors. The user is left clicking the Discord icon with absolutely nothing happening.
+
+## ✨ The Solution
+**DFLU** is a polyglot Batch/PowerShell script that fixes your Discord installation in seconds *without reinstalling* and *without losing your login/settings*. 
+
+It automatically:
+1. Detects your Discord AppData folder.
+2. Identifies the broken update and the previous working backup.
+3. Surgically copies the working core files into the new update folder.
+4. Purges old garbage folders to free up disk space.
+5. Wipes the Discord Cache (fixes gray/black screen issues).
+6. Auto-launches Discord immediately after the fix.
+
+## 🚀 Usage
+
+1. Download [`Fix-Discord.bat`](Fix-Discord.bat).
+2. Double-click to run.
+3. Follow the minimal interactive prompts (or just mash `Enter` to use the defaults).
+4. Enjoy your revived Discord!
+
+## 📸 Interface
+DFLU features a modern, clean, and colorful CLI interface built with native Windows PowerShell wrapped inside a standalone `.bat` file. **Zero dependencies required.**
+
+---
+*Created because Discord updates break too often.*
