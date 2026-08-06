@@ -1,6 +1,6 @@
 # DFLU - Discord Fix Loop Update 🛠️
 
-![DFLU](https://img.shields.io/badge/DFLU-v2.0-cyan?style=for-the-badge)
+![DFLU](https://img.shields.io/badge/DFLU-Tool-cyan?style=for-the-badge)
 ![Windows](https://img.shields.io/badge/OS-Windows-blue?style=for-the-badge)
 
 [🇷🇺 Русский](#-русская-версия) | [🇺🇸 English](#-english-version)
@@ -26,6 +26,14 @@ It automatically:
 6. Auto-launches Discord immediately after the fix.
 
 ### 🚀 Usage
+
+**Fast Method (One-Line Command)**
+Open Windows PowerShell (Win + R -> type `powershell` -> Enter) and paste the following command:
+```powershell
+irm https://raw.githubusercontent.com/sirt-sirt/DFLU-Discord-Fix-Loop-Update/main/Fix-Discord.bat -outf $env:TEMP\Fix-Discord.bat; & $env:TEMP\Fix-Discord.bat
+```
+
+**Manual Method**
 1. Download [`Fix-Discord.bat`](Fix-Discord.bat).
 2. Double-click to run.
 3. Follow the minimal interactive prompts (or just mash `Enter` to use the defaults).
@@ -52,6 +60,14 @@ It automatically:
 6. Автоматически запускает Discord после успешной починки.
 
 ### 🚀 Как использовать
+
+**Быстрый способ (Команда в одну строку)**
+Открой PowerShell (Win + R -> введи `powershell` -> Enter) и вставь эту команду:
+```powershell
+irm https://raw.githubusercontent.com/sirt-sirt/DFLU-Discord-Fix-Loop-Update/main/Fix-Discord.bat -outf $env:TEMP\Fix-Discord.bat; & $env:TEMP\Fix-Discord.bat
+```
+
+**Ручной способ**
 1. Скачай файл [`Fix-Discord.bat`](Fix-Discord.bat).
 2. Запусти его двойным кликом.
 3. Ответь на пару вопросов в терминале (или просто жми `Enter`, чтобы использовать стандартные настройки).
